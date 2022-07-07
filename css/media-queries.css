@@ -1,0 +1,210 @@
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    form {
+        width: 38vw;
+        height: 46vw;
+    }
+
+    .form-title h2 {
+        font-size: 3.5vw;
+    }
+
+    .social-text p {
+        font-size: 1.4vw;
+    }
+
+    .social-media-links a {
+        height: 3.5vw;
+        width: 3.5vw;
+    }
+
+    .social-media-links i {
+        font-size: 2vw;
+    }
+
+    .user-box {
+        line-height: 2.8vw;
+    }
+
+    .user-box label {
+        font-size: 2vw;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+        top: -15px;
+    }
+
+    .container button {
+        font-size: 2.5vw;
+    }
+
+    .wrapper a {
+        font-size: 1.4vw;
+    }
+}
+
+@media (min-width: 992px) {
+    form {
+        width: 32vw;
+        height: 38vw;
+    }
+
+    .form-title h2 {
+        font-size: 3vw;
+    }
+    
+    .social-text p {
+        font-size: 1.2vw;
+    }
+
+    .social-media-links a {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .social-media-links i {
+        font-size: 1.5vw;
+    }
+
+    /* .user-info {
+        margin-bottom: -2vw;
+    } */
+
+    .user-box label {
+        font-size: 1.5vw;
+    }
+
+    .user-box input {
+        font-size: 1.8vw;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+        top: -15px;
+        font-size: 1vw;
+    }
+
+
+    .container button {
+        font-size: 2vw;
+    }
+
+    .wrapper a {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    form {
+        width: 26vw;
+        height: 32vw;
+    }
+
+    .form-title h2 {
+        font-size: 2.5vw;
+    }
+
+    .social-text p {
+        font-size: 1vw;
+    }
+
+    .social-media-links a {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    .user-box {
+        line-height: 1.8vw;
+    }
+
+    .social-media-links i {
+        font-size: 1vw;
+    }
+
+    .user-box label {
+        font-size: 1.2vw;
+        top: 0;
+        left: 0;
+    }
+
+    .user-box input {
+        font-size: 1.2vw;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+        top: -20px;
+        font-size: .85vw;
+    }
+
+    .container button {
+        font-size: 1.5vw;
+    }
+
+    .wrapper {
+        height: 6vw;
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    .container button {
+        height: 3.25vw;
+        width: 70%;
+        color: #fff;
+        background-color: #08e1ae;
+        border: none;
+        font-family: 'Fredoka One', cursive;
+        border-radius: 50px 50px 30px 30px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+        transition: 1s;
+    }
+
+    .container button:hover {
+        border-radius: 100px 100px 20px 20px;
+        height: 2.95vw;
+        width: 10.75vw;
+        color: #fff;
+    }
+
+    .container button:hover .scale {
+        letter-spacing: .3vw;
+        font-size: 1.6vw;
+        transition: 1s;
+    }
+
+    .rotate-1,
+    .rotate-2,
+    .rotate-3,
+    .rotate-4 {
+        transition: 1s;
+    }
+
+    button:hover .rotate-1 {
+        transform: rotate(15deg);
+    }
+
+    button:hover .rotate-2 {
+        transform: rotate(-15deg);
+    }
+
+    button:hover .rotate-3 {
+        transform: rotate(10deg);
+    }
+
+    button:hover .rotate-4 {
+        transform: rotate(-25deg);
+    }
+
+    .wrapper a {
+        font-size: 1vw;
+        transition: .2s;
+    }
+
+    .wrapper a:hover{
+        color: #4d4d4d;
+    }
+}
